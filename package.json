@@ -1,0 +1,41 @@
+{
+  "name": "firstapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KosanyakViktor/ReactFirstApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KosanyakViktor/ReactFirstApp/issues"
+  },
+  "homepage": "https://github.com/KosanyakViktor/ReactFirstApp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-react-jsx": "^7.12.12",
+    "@babel/preset-env": "^7.12.11",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.5.1"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
